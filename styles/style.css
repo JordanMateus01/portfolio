@@ -112,7 +112,8 @@ body {
 }
 
 .apresentacao__curriculo__nome{
-    padding: 2% 1% 0% 25%;
+    text-align: center;
+    padding: 2% 1% 0% 0%;
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
