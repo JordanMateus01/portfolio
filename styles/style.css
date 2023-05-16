@@ -90,19 +90,13 @@ body {
     text-decoration: none;
     color: #f6f6f6;
     font-family: var(--fonte-secundaria);
-    
 }
 
 .apresentacao__links__navegaçao:hover{
     background-color: #073b4c;
 }
 
-.apresentacao__imagem__home{
-    width: 50%;
-    margin-bottom: 29%;
-}
-
-.apresentacao__imagem_about{
+.apresentacao__imagem{
     width: 50%;
 }
 
