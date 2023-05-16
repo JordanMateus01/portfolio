@@ -97,7 +97,12 @@ body {
     background-color: #073b4c;
 }
 
-.apresentacao__imagem{
+.apresentacao__imagem__home{
+    width: 50%;
+    margin-bottom: 29%;
+}
+
+.apresentacao__imagem_about{
     width: 50%;
 }
 
