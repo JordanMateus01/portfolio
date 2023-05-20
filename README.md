@@ -4,11 +4,12 @@
 
 
 ## 🖥️ Projeto
-Esse é um projeto Web Responsivo, de um portfólio, com 3 páginas divergentes e com 2 botões redirecionadores.
+Esse é um projeto Web Responsivo de um portfólio, que contém 3 páginas divergentes e 2 botões redirecionadores para redes sociais.
 
 ## 🚀 Tecnologias
-Esse projeto foi desenvolvido durante o NLW da Rocketseat com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
+- HTML;
+- CSS;
+- JS;
 - Git e Github.
