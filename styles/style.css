@@ -17,12 +17,12 @@ body {
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding:1% 0% 1% 15%;
 }
 
 .cabecalho__menu{
     display: flex;
-    gap: 40px;
+    gap: 4em;
 }
 
 .cabecalho__menu__link{
@@ -34,11 +34,11 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 4% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 80px;
 }
 
 .apresentacao__conteudo {
@@ -98,6 +98,7 @@ body {
 
 .apresentacao__imagem{
     width: 50%;
+    border-radius: 50%;
 }
 
 .rodape{
