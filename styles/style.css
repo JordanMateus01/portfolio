@@ -3,11 +3,13 @@
 :root{
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
+    --fontsize-primaria: 
 }
 
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -33,12 +35,22 @@ body {
     text-decoration: none;
 }
 
-.apresentacao {
+.apresentacao__index {
+
     padding: 4% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 80px;
+    zoom: 90%;
+}
+
+.apresentacao__about {
+    padding: 4% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 88px;
 }
 
 .apresentacao__conteudo {
@@ -81,7 +93,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid #22d4fd;
-    width: 50%;
+    width: 60%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -98,17 +110,6 @@ body {
 
 .apresentacao__imagem{
     width: 50%;
-    border-radius: 50%;
-}
-
-.rodape{
-    padding: 24px;
-    color: #f6f6f6;
-    background-color:#023e8a;
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: 1.25rem;
-    font-weight: 400;
 }
 
 .apresentacao__curriculo__nome{
@@ -149,27 +150,73 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-@media (max-width: 1130px){
+.rodape{
+    padding: 24px;
+    color: #f6f6f6;
+    background-color:#023e8a;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+@media (max-width: 984px){
     .cabecalho{
         padding: 10%;
     }
 
     .apresentacao__curriculo{
-        padding: 10%;
+        padding: 5%;
         width: auto;
-        justify-content: center;
     }
 
     .cabecalho__menu{
         justify-content: center;
-        
+        padding: 0%;
+        gap: 2em;
     }
-    .apresentacao{
+    .apresentacao__index, .apresentacao__about{
         flex-direction: column-reverse;
         padding: 5%;
     }
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao__curriculo__nome{
+        padding: 1% 0% 3% 0%;
+        text-align: center;
+    }
+
+    .apresentacao__curriculo__formacao, .apresentacao__curriculo__experiencia, .apresentacao__curriculo__padrão, .apresentacao__curriculo__qualif {
+        padding: 2% 2%;
+        text-align: center;
+    }
+
+    .apresentacao__curriculo__padrão {
+        text-align: left;
+    }
+
+    .apresentacao__links__navegaçao {
+        width: 30%;
+    }
+}
+
+@media (max-width: 587px){
+    .apresentacao__links__navegaçao {
+        width: 50%;
+    }
+}
+
+@media (max-width: 334px){
+    .cabecalho__menu{
+        justify-content: center;
+        padding: 0%;
+        gap: 0.5em;
+    }
+
+    .apresentacao__links__navegaçao {
+        width: 70%;
     }
 }
